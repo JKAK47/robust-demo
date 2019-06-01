@@ -8,7 +8,7 @@ import javax.validation.Validator;
 import java.util.Set;
 
 /**
- * 手动显示触发校验类
+ * 手动显式调用API 触发校验类
  */
 public class ValidationUtils {
 

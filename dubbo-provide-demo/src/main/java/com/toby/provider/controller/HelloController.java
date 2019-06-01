@@ -10,6 +10,12 @@ import javax.validation.Valid;
 @RestController
 public class HelloController {
 
+    /**
+     * JSR 303 对 HttpRequest 接口方法参数进行校验
+     *
+     * @param helloDTO
+     * @return
+     */
     @RequestMapping("/controllerValid")
     public String controllerValid(@RequestBody @Valid HelloDTO helloDTO) {
         return "ok";
